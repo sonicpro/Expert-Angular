@@ -1,7 +1,7 @@
 export class Movie {
 
     public constructor(
-        private _movie_id:number,
+        private _movie_id: number,
         private _title: string,
         private _phase: string,
         private _category_name: string,
@@ -20,7 +20,7 @@ export class Movie {
 
     }
 
-    public toString = () : string => {
+    public toString = (): string => {
 
         return `Movie (movie_id: ${this._movie_id},
         title: ${this._title},
@@ -40,101 +40,101 @@ export class Movie {
         time_stamp: ${this._time_stamp})`;
     }
 
-    get movie_id(): number{
+    public get movie_id(): number{
         return this._movie_id;
     }
-    get title(): string{
+    public get title(): string{
         return this._title;
     }
-    get phase(): string{
+    public get phase(): string{
         return this._phase;
     }
-    get category_name(): string{
+    public get category_name(): string{
         return this._category_name;
     }
-    get release_year(): number{
+    public get release_year(): number{
         return this._release_year;
     }
-    get running_time(): number{
+    public get running_time(): number{
         return this._running_time;
     }
-    get rating_name(): string{
+    public get rating_name(): string{
         return this._rating_name;
     }
-    get disc_format_name(): string{
+    public get disc_format_name(): string{
         return this._disc_format_name;
     }
-    get number_discs(): number{
+    public get number_discs(): number{
         return this._number_discs;
     }
-    get viewing_format_name(): string{
+    public get viewing_format_name(): string{
         return this._viewing_format_name;
     }
-    get aspect_ratio_name(): string{
+    public get aspect_ratio_name(): string{
         return this._aspect_ratio_name;
     }
-    get status(): string{
+    public get status(): string{
         return this._status;
     }
-    get release_date(): string{
+    public get release_date(): string{
         return this._release_date;
     }
-    get budget(): number{
+    public get budget(): number{
         return this._budget;
     }
-    get gross(): number{
+    public get gross(): number{
         return this._gross;
     }
-    get time_stamp(): Date{
+    public get time_stamp(): Date{
         return this._time_stamp;
     }
 
-    set movie_id(movie_id: number){
+    public set movie_id(movie_id: number){
         this._movie_id = movie_id;
     }
-    set title(title: string){
+    public set title(title: string){
         this._title = title;
     }
-    set phase(phase: string){
+    public set phase(phase: string){
         this._phase = phase;
     }
-    set category_nam(category_name: string){
+    public set category_nam(category_name: string){
         this._category_name = category_name;
     }
-    set release_year(release_year: number){
+    public set release_year(release_year: number){
         this._release_year = release_year;
     }
-    set running_time(running_time: number){
+    public set running_time(running_time: number){
         this._running_time = running_time;
     }
-    set rating_name(rating_name: string){
+    public set rating_name(rating_name: string){
         this._rating_name = rating_name;
     }
-    set disc_format_name(disc_format_name: string){
+    public set disc_format_name(disc_format_name: string){
         this._disc_format_name = disc_format_name;
     }
-    set number_discs(number_discs: number){
+    public set number_discs(number_discs: number){
         this._number_discs = number_discs;
     }
-    set viewing_format_name(viewing_format_name: string){
+    public set viewing_format_name(viewing_format_name: string){
         this._viewing_format_name = viewing_format_name;
     }
-    set aspect_ratio_name(aspect_ratio_name: string){
+    public set aspect_ratio_name(aspect_ratio_name: string){
         this._aspect_ratio_name = aspect_ratio_name;
     }
-    set status(status: string){
+    public set status(status: string){
         this._status = status;
     }
-    set release_date(release_date: string){
+    public set release_date(release_date: string){
         this._release_date = release_date;
     }
-    set budget(budget: number){
+    public set budget(budget: number){
         this._budget = budget;
     }
-    set gross(gross: number){
+    public set gross(gross: number){
         this._gross = gross;
     }
-    set time_stamp(time_stamp:Date){
+    public set time_stamp(time_stamp: Date){
         this._time_stamp = time_stamp;
     }
 

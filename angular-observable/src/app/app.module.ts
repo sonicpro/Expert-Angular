@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
 import { HttpModule } from "@angular/http";
-import { IMDBAPIService } from "./services/imdbapi.service"
+import { IMDBAPIService } from "./services/imdbapi.service";
 
-import { AppComponent } from './app.component';
+import { AppComponent } from "./app.component";
 
 @NgModule({
   declarations: [
